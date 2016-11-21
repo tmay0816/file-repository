@@ -1,0 +1,28 @@
+Description:
+
+This ruby code performs both a positive and a negative test case on
+a basic web form. The positive case supplies all required fields 
+while the negative test case does not. The positive test case performs
+a successful submit while the negative one triggers validation messages
+and remains on the same page. The title of the page was used to determine 
+if it transitioned to the next page successfully or not.
+
+Here are the results of the tests from the command line.
+
+C:\Users\Anthony\Desktop\salesforce>ruby TestCases.rb
+Loaded suite TestCases
+Started
+
+Page title is Basic Web Forms
+.
+Page title is Thanks!
+.
+
+Finished in 13.892012 seconds.
+
+2 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.14 tests/s, 0.14 assertions/s
+
+C:\Users\Anthony\Desktop\salesforce>
